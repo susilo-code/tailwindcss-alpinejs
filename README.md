@@ -1,6 +1,6 @@
 Ada beberapa langkah untuk mengintegrasikan TailwindCSS dan Alpine.js. Saya akan menuliskannya di bawah, temen-temen yang berminat, silahkan :
-Pertama, Install Tailwindcss dan Install Alpine.js (npm install alpinejs esbuild)
-kemudian kita tinggal mengkonfigurasi bagaimana nanti tailwind dan alpine ini diinstansiasi dengan menentukan file inputnya apa dan file outputnya apa. Kita akan bekerja dengan file package.json
+** *Pertama, Install Tailwindcss npm install -D tailwindcss@3 autoprefixer postcss) dan Install Alpine.js (npm install alpinejs esbuild) ** *
+kemudian kita tinggal mengkonfigurasi bagaimana nanti tailwind dan alpine ini diinstansiasi dengan menentukan file inputnya apa dan file outputnya apa. Kita akan bekerja dengan file package.json --> (npx tailwindcss init)
 {
   "devDependencies": {
     "tailwindcss": "^3.4.17"
